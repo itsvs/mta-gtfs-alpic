@@ -4,7 +4,9 @@ import { widgetsDevServer } from "skybridge/server";
 import type { ViteDevServer } from "vite";
 import { env } from "./env.js";
 import { mcp } from "./middleware.js";
-import server from "./server.js";
+import { buildServer } from "./server.js";
+
+const server = buildServer();
 
 const app = express() as Express & { vite: ViteDevServer };
 
