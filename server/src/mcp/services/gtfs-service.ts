@@ -1,8 +1,8 @@
-import { loadGTFSData } from "../../gtfs/static";
-import { fetchGTFSRealtimeData } from "../../gtfs/realtime";
-import { GTFSData, GTFSRealtimeData } from "../../gtfs/types";
-import { RouteInfo, StopInfo, TripInfo, SystemInfo, UpcomingDeparture, StopSchedule } from "../types";
-import { unixTimestampToEasternTime, isServiceActiveTodayEastern } from "../utils/timezone";
+import { loadGTFSData } from "../../gtfs/static.js";
+import { fetchGTFSRealtimeData } from "../../gtfs/realtime.js";
+import { GTFSData, GTFSRealtimeData } from "../../gtfs/types.js";
+import { RouteInfo, StopInfo, TripInfo, SystemInfo, UpcomingDeparture, StopSchedule } from "../types.js";
+import { unixTimestampToEasternTime, isServiceActiveTodayEastern } from "../utils/timezone.js";
 
 export class GTFSService {
   private gtfsData: GTFSData | null = null;

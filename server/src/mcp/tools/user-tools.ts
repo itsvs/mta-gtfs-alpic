@@ -1,5 +1,5 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import { jsonResponse } from "../utils/responses";
+import { jsonResponse } from "../utils/responses.js";
 
 export function createUserTools(server: McpServer) {
   // Get user saved trips

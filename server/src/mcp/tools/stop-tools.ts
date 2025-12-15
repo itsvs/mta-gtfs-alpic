@@ -1,7 +1,7 @@
-import { GTFSService } from "../services";
+import { GTFSService } from "../services/gtfs-service.js";
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { z } from "zod";
-import { jsonResponse, withErrorHandling, notFoundResponse } from "../utils/responses";
+import { jsonResponse, withErrorHandling, notFoundResponse } from "../utils/responses.js";
 
 export function createStopTools(gtfsService: GTFSService, server: McpServer) {
   // Search for stops by name or ID

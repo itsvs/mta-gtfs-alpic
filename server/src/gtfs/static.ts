@@ -1,5 +1,5 @@
 import Papa from "papaparse";
-import { Agency, Route, Stop, Trip, StopTime, Calendar, Shape, GTFSData } from "./types";
+import { Agency, Route, Stop, Trip, StopTime, Calendar, Shape, GTFSData } from "./types.js";
 import { readFileSync } from "fs";
 
 // Field mappings for each type - only the fields we actually use

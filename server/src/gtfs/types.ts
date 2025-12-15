@@ -1,4 +1,4 @@
-import { TripUpdate } from "./proto";
+import { TripUpdate } from "./proto/index.js";
 
 export interface Agency {
   agency_name: string;

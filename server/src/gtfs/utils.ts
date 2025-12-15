@@ -1,4 +1,4 @@
-import { Route, Stop, Trip, StopTime, Calendar } from "./types";
+import { Route, Stop, Trip, StopTime, Calendar } from "./types.js";
 
 export function getRouteColor(route: Route): string {
   if (!route.route_color) return "#666666";

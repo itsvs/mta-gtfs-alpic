@@ -1,5 +1,5 @@
-import { FeedMessage, TripUpdate, TripUpdate_StopTimeUpdate } from "./proto";
-import { GTFSRealtimeData } from "./types";
+import { FeedMessage, TripUpdate, TripUpdate_StopTimeUpdate } from "./proto/index.js";
+import { GTFSRealtimeData } from "./types.js";
 
 const MTA_GTFS_RT_URL = "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs";
 

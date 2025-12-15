@@ -1,4 +1,4 @@
-import { Route, Stop, Trip } from "../gtfs/types";
+import { Route, Stop, Trip } from "../gtfs/types.js";
 
 // MTA-specific types for MCP responses
 export interface RouteInfo extends Route {

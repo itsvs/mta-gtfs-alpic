@@ -1,6 +1,6 @@
-import { GTFSService } from "../services";
+import { GTFSService } from "../services/gtfs-service.js";
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import { jsonResponse, withErrorHandling } from "../utils/responses";
+import { jsonResponse, withErrorHandling } from "../utils/responses.js";
 
 export function createSystemTools(gtfsService: GTFSService, server: McpServer) {
   // Get general system information

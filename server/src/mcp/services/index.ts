@@ -1,3 +1,3 @@
-import { GTFSService } from "./gtfs-service";
+import { GTFSService } from "./gtfs-service.js";
 
 export { GTFSService };
