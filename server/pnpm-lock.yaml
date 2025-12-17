@@ -22,7 +22,7 @@ importers:
         version: 1.20.2
       '@t3-oss/env-core':
         specifier: ^0.13.8
-        version: 0.13.8(typescript@5.9.3)(zod@4.1.13)
+        version: 0.13.8(typescript@5.9.3)(zod@3.25.51)
       dotenv:
         specifier: ^17.2.3
         version: 17.2.3
@@ -42,8 +42,8 @@ importers:
         specifier: ^7.1.11
         version: 7.1.11(@types/node@22.18.12)(tsx@4.20.6)
       zod:
-        specifier: ^4.1.13
-        version: 4.1.13
+        specifier: ^3.25.51
+        version: 3.25.51
     devDependencies:
       '@modelcontextprotocol/inspector':
         specifier: ^0.17.5
@@ -1984,11 +1984,11 @@ packages:
     peerDependencies:
       zod: ^3.25 || ^4
 
+  zod@3.25.51:
+    resolution: {integrity: sha512-TQSnBldh+XSGL+opiSIq0575wvDPqu09AqWe1F7JhUMKY+M91/aGlK4MhpVNO7MgYfHcVCB1ffwAUTJzllKJqg==}
+
   zod@3.25.76:
     resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
-
-  zod@4.1.13:
-    resolution: {integrity: sha512-AvvthqfqrAhNH9dnfmrfKzX5upOdjUVJYFqNSlkmGf64gRaTzlPwz99IHYnVs28qYAybvAlBV+H7pn0saFY4Ig==}
 
   zustand@5.0.9:
     resolution: {integrity: sha512-ALBtUj0AfjJt3uNRQoL1tL2tMvj6Gp/6e39dnfT6uzpelGru8v1tPOGBzayOWbPJvujM8JojDk3E1LxeFisBNg==}
@@ -2330,8 +2330,8 @@ snapshots:
       express-rate-limit: 7.5.1(express@5.1.0)
       pkce-challenge: 5.0.0
       raw-body: 3.0.1
-      zod: 3.25.76
-      zod-to-json-schema: 3.25.0(zod@3.25.76)
+      zod: 3.25.51
+      zod-to-json-schema: 3.25.0(zod@3.25.51)
     transitivePeerDependencies:
       - supports-color
 
@@ -2725,10 +2725,10 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.52.5':
     optional: true
 
-  '@t3-oss/env-core@0.13.8(typescript@5.9.3)(zod@4.1.13)':
+  '@t3-oss/env-core@0.13.8(typescript@5.9.3)(zod@3.25.51)':
     optionalDependencies:
       typescript: 5.9.3
-      zod: 4.1.13
+      zod: 3.25.51
 
   '@tsconfig/node10@1.0.11': {}
 
@@ -3807,13 +3807,17 @@ snapshots:
 
   yn@3.1.1: {}
 
+  zod-to-json-schema@3.25.0(zod@3.25.51):
+    dependencies:
+      zod: 3.25.51
+
   zod-to-json-schema@3.25.0(zod@3.25.76):
     dependencies:
       zod: 3.25.76
 
-  zod@3.25.76: {}
+  zod@3.25.51: {}
 
-  zod@4.1.13: {}
+  zod@3.25.76: {}
 
   zustand@5.0.9(react@18.3.1):
     optionalDependencies:
